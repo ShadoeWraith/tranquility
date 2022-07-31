@@ -7,7 +7,7 @@ export default function Contact() {
           Discord: <span>Shadoe#1684</span> or <span>HoloTales#0001</span>
         </h3>
         <h3>
-          In game: <span>Saya Lorona</span> or <span>Holo Tales</span>
+          In game: <span>Saya Larona</span> or <span>Holo Tales</span>
         </h3>
       </div>
     </section>
