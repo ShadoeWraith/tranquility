@@ -16,7 +16,7 @@ export default function Navbar() {
             className={`navbar ${
               currentCategory.name === category.name ? "is-active" : ""
             }`}
-            to={`/${category.name}`}
+            to={`/tranquility/${category.name}`}
             onClick={() => setCurrentCategory(category)}
             key={category.name}
           >
