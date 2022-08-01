@@ -22,7 +22,7 @@ function App() {
             </div>
           }
         />
-        <Route path="/members" element={<Members />} />
+        <Route path="/tranquility/members" element={<Members />} />
       </Routes>
       <Footer />
     </Router>
