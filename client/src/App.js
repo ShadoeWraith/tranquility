@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
+import Home from "./pages/Home";
 import CharInfo from "./components/CharInfo";
-import Members from "./components/Members";
+import Members from "./pages/Members";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
