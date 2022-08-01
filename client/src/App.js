@@ -1,7 +1,9 @@
-import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import CharInfo from "./components/CharInfo";
 import Members from "./pages/Members";
+import Events from "./pages/Events";
+
+import Navbar from "./components/Navbar";
+import CharInfo from "./components/CharInfo";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -23,6 +25,7 @@ function App() {
           }
         />
         <Route path="/members" element={<Members />} />
+        <Route path="/events" element={<Events />} />
       </Routes>
       <Footer />
     </Router>

@@ -195,3 +195,7 @@ footer span {
 footer span:hover {
   text-decoration: underline;
 }
+
+button {
+  background-color: white;
+}
