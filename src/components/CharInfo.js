@@ -23,11 +23,14 @@ export default function CharInfo() {
 
   return (
     <div className="section" id="Meet us">
-      <h2 className="section-header">Come Meet Us!</h2>
-      <span className="section-subheader">Jenova @ Shiro, W18 P24</span>
+      <h2 className="section-header">
+        Come Meet Us!{" "}
+        <span className="section-subheader">Jenova @ Shiro, W18 P24</span>
+      </h2>
+
       <section className="card-container">
         {characters.map((char) => (
-          <div className="card">
+          <div className="card" key={char.name}>
             <img className="rank-logo" src={char.rankImage} alt="rank logo" />
             <h2 className="card-header">{char.name}</h2>
             <img className="card-image" src={char.image} alt="character" />

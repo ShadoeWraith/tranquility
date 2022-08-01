@@ -2,7 +2,7 @@ import fcMain from "../assets/FC_Main.png";
 
 export default function Home() {
   return (
-    <div id="Home">
+    <div>
       <img className="section-image" src={fcMain} alt="free company" />
       <section className="section">
         <h2 className="section-header">About Us!</h2>
