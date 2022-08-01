@@ -6,7 +6,6 @@ export default function Members() {
   const url = "https://xivapi.com/freecompany/9229001536389064942?data=FCM";
   const [members, setMembers] = useState([]);
   const [isLoading, setLoading] = useState(true);
-
   useEffect(() => {
     const getMembers = async () => {
       const response = await axios(url);
