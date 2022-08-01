@@ -3,7 +3,7 @@ import { BarLoader } from "react-spinners";
 import axios from "axios";
 
 export default function Members() {
-  const url = "http://xivapi.com/freecompany/9229001536389064942?data=FCM";
+  const url = "https://xivapi.com/freecompany/9229001536389064942?data=FCM";
   const [members, setMembers] = useState([]);
   const [isLoading, setLoading] = useState(true);
 
@@ -11,7 +11,6 @@ export default function Members() {
     const getMembers = async () => {
       const response = await axios(url);
       setMembers(response.data);
-      console.log(response.data);
       setLoading(false);
     };
     getMembers();
