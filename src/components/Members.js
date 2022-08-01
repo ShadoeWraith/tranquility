@@ -10,6 +10,7 @@ export default function Members() {
     const getMembers = async () => {
       const response = await axios(url);
       setMembers(response.data);
+      console.log(response.data);
       setLoading(false);
     };
     getMembers();
