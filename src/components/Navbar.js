@@ -6,10 +6,10 @@ export default function Navbar() {
     <nav className="nav">
       <img src={tranquility} alt="free company logo" />
       <ul>
-        <Link to="/tranquility/">
+        <Link to="/">
           <li>Home</li>
         </Link>
-        <Link to="/tranquility/members">
+        <Link to="/members">
           <li>Members</li>
         </Link>
       </ul>
