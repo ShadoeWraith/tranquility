@@ -5,10 +5,10 @@ export default function Navbar() {
     <nav className="nav">
       <img src={tranquility} alt="free company logo" />
       <ul>
-        <a href="/">
+        <a href="/tranquility/">
           <li>Home</li>
         </a>
-        <a href="/members">
+        <a href="/tranquility/members">
           <li>Members</li>
         </a>
       </ul>
