@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route
-          path="/home"
+          path="/tranquility/home"
           element={
             <div>
               <Home />
@@ -22,7 +22,7 @@ function App() {
             </div>
           }
         />
-        <Route path="/members" element={<Members />} />
+        <Route path="/tranquility/members" element={<Members />} />
       </Routes>
       <Footer />
     </Router>
